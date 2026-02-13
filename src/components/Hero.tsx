@@ -1,4 +1,5 @@
-import heroImage from "@/assets/hero-villa.jpg";
+import { Link } from "react-router-dom";
+import heroImage from "@/assets/new-photos/822246813.jpg";
 
 const Hero = () => {
   return (
@@ -23,12 +24,12 @@ const Hero = () => {
         <p className="font-heading text-xl md:text-2xl italic text-secondary/90 mb-10">
           Where hospitality meets paradise
         </p>
-        <a
-          href="#experience"
+        <Link
+          to="/experience"
           className="inline-block px-10 py-4 border border-secondary/60 text-secondary text-sm tracking-[0.2em] uppercase font-body font-medium hover:bg-secondary/10 transition-all duration-300"
         >
           Discover
-        </a>
+        </Link>
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
