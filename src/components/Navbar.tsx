@@ -38,7 +38,7 @@ const Navbar = () => {
           Kilulu
         </Link>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center justify-center flex-1 gap-8 pl-16">
           {navLinks.map((link) => (
             <Link
               key={link.href}
